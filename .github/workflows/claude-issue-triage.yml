@@ -172,3 +172,5 @@ jobs:
           - Connecting regressions to specific changes is extremely valuable.
           - Link issues with #number so they're clickable.
     if: ${{ github.actor == github.repository_owner && (true) }}
+env:
+  ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
